@@ -1,0 +1,16 @@
+.i-button{
+    background-color:brown;
+    color:aliceblue;
+    border-color:rgb(194, 184, 198);
+    width:90px;
+    height:30px;
+    margin-right:8px;
+}
+
+.pnc-button{
+    background-color:burlywood;
+    border-color:rgb(172, 217, 196);
+    width:80px;
+    height:30px;
+    margin-right:4px;
+}

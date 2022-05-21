@@ -1,0 +1,54 @@
+body{
+    background-image:url('bc2.jpg')
+    
+}
+h2{
+    font-size:30px;
+    text-align: center;
+    font-family: arial black;
+
+}
+p{
+    font-family: arial;
+     line-height: 18pt;
+     text-align:left;
+     color: white;
+}
+
+.li-style{
+    font-family: arial black;
+    color: rgb(183, 169, 169);
+    list-style-type: square;
+    border: 3px rgb(29, 116, 179);
+    border-radius: 18px;
+    border-width: 4px;
+    border-style:double;
+    padding: 10px;
+    margin: 15px;
+    font-size: medium;
+}
+strong{
+    font-size:x-large;
+    color:aliceblue;
+}
+.continous{
+    background-color:rgb(43, 104, 226);
+    width:130px;
+    height:30px;  
+    border-color:white;
+    border-radius:12px;
+    border-width:2px;
+    cursor: pointer;
+    margin-right:1020px;
+}
+a{
+    color:antiquewhite;
+}
+.perfect{
+    background-color:rgb(75, 168, 181);
+    border-color:cadetblue;
+    width:130px;
+    height:30px;
+    border-width:4px;
+    border-radius:2px;
+}
