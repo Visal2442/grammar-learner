@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style3.css">
+    </head>
+
+    <body>
+        
+        <div class="full-page">
+            <div class="navbar">
+                <div>
+                    <a href="Past Continous.html">I love you</a>
+                </div>
+                <nav>
+                    <ul id="Menu">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Service</a></li>
+                        <li><a href="#">More</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div id="login-form" class="login-page">
+                
+                <!-- creating the form box -->
+                <div class="form-box">
+                    <div class="button-box">
+                        <div id="btn"></div>
+                        <button type="button" onclick="login()" class="toggle-btn">
+                            Log In
+                        </button>
+                        <button type="button" onclick="register()" class="toggle-btn">
+                            Register
+                        </button>
+                    </div>
+
+                    <!-- creating login form -->
+                    <form id="login" class="input-group-login">
+                        <input type="text" class="input-field" placeholder="Email Id" required>
+                        <input type="password" class="input-field" placeholder="Enter Password" required>
+                        <input type="checkbox" class="check-box"><span>Remember Password</span>
+                        <button type="submit" class="submit">Log in</button>
+                    </form>
+
+                    <!-- creating the register form -->
+                    <form id="register" class="input-group-register">
+                        <input type="text" class="input-field" placeholder="First Name" required>
+                        <input type="text" class="input-field" placeholder="Last Name" required>
+                        <input type="email" class="input-field" placeholder="Email Id" required>
+                        <input type="password" class="input-field" placeholder="Enter Password" required>
+                        <input type="password" class="input-field" placeholder="Confirm Password" required>
+                        <input type="checkbox" class="check-box"> <span>I agree to the terms and condition</span>
+                        <button type="submit" class="sumit-btn">Register</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>

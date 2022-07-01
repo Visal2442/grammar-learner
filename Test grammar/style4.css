@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(back.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+
+nav{
+    text-align: right;
+    margin: 20px 0;
+}
+
+nav ul{
+    display: inline;
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 70px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav ul li a:hover{
+   opacity: 0.5;
+   color: rgb(245, 8, 193);
+   background-color: purple;
+   padding: 10px 5px;
+}
+
+.container{
+    /* border: 5px solid black; */
+    color: white;
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    font-family: Helvetica, sans-serif;
+}
+
+.container h1{
+    display: inline-block;
+    border-bottom: 5px solid rgb(168, 38, 129);
+    font-size: 50px;
+    margin-bottom: 11px;
+    padding: 6px 0;
+}
+
+.box{
+    border-bottom: 2px solid rgb(168, 38, 129);
+    /* width: 100%; */
+    margin: 30px 0;
+} 
+
+.box input{
+    background: none;
+    /* width: 100%; */
+    border: none;
+    outline: none;
+    font-size: 20px;
+    margin: 10px 0;
+    padding: 2px 0;
+    color: white;
+}
+
+.btn{
+    background: none;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    width: 35%;
+    /* margin: 5px 0; */
+    padding: 10px 0;
+    border-radius: 10px;
+    border: 2px solid rgb(168, 38, 129);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn:hover{
+    background: white;
+    color: rgb(168, 38, 129);
+    opacity: 0.5;
+}
+
+input::placeholder{
+    color: rgb(228, 168, 193);
+}
